@@ -3,10 +3,11 @@ package sqlc
 import (
 	"context"
 	"database/sql"
-	"module/util"
+
 	"testing"
 	"time"
 
+	"github.com/AlisherAmirbek/simplebank/util"
 	"github.com/stretchr/testify/require"
 )
 
